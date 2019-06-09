@@ -2,11 +2,14 @@
 import React, { Component } from 'react';
 
 class SearchBar extends Component {
+  updateList = (event) => {
+    
+  }
+
   render() {
     return (
-      <div>
-        <input type="text" className="form-search" />
-      </div>
+        <input type="text" className="form-search"
+        onChange={this.updateList} /> 
     );
   }
 }
