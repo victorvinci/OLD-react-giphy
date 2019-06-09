@@ -1,4 +1,3 @@
-/* eslint-disable */
 import React, { Component } from 'react';
 
 import Gif from './gif';
@@ -9,8 +8,7 @@ class GifList extends Component {
   }
 
   render() {
-
-    return(
+    return (
       <div className="gif-list">
         {this.renderList()}
       </div>

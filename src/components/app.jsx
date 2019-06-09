@@ -1,4 +1,3 @@
-/* eslint-disable */
 import React, { Component } from 'react';
 import giphy from 'giphy-api';
 
