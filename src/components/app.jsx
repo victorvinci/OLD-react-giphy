@@ -32,7 +32,7 @@ class App extends Component {
     return (
       <div>
         <div className="left-scene">
-          <SearchBar />
+          <SearchBar searchList={this.search}/>
           <div className="selected-gif">
             <Gif id={this.state.selectedGifId}/>
           </div>
